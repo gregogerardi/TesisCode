@@ -1,0 +1,3 @@
+# [jobId];[# of CPU cycles required to complete];[arrival time](;[input size];[output size])?
+1;10000;100;100000000;100000000
+1;10000;20000;100000000;100000000

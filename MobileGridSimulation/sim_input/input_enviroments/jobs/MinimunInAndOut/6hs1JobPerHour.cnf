@@ -1,0 +1,9 @@
+#input: numberOfJobs JobsArriveMinTime(millis) JobsArriveMaxTime(millis) opsFunction:[nlogn|n_2|n_3|all] maxFlop JobsMinInput(bytes) JobsMaxInput(bytes) JobsMinOutput(bytes) JobsMaxOutput(bytes)
+#input: 6 1 21600000 all 5901810722000 1048 524288 1048 524288
+#output: id;ops;time;input;output
+5;9528128;1137405;217540;212894
+1;2982;3623803;509375;285494
+4;15438249;5728179;255930;49256
+0;9604;9353744;101306;183535
+2;94864;13186806;316045;201056
+3;55306341;20286678;390637;246265

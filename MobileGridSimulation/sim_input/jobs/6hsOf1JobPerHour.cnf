@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.IllegalArgumentException: Unrecognized flag D:\bibliotecas\Documentos\mobileGridSimulator\MobileGridSimulation\sim_input\input_enviroments\jobs\jobsSetup.cnf.
+	at edu.isistan.appender.AppenderConnectionEventsToConfFile.parseArguments(AppenderConnectionEventsToConfFile.java:90)
+	at edu.isistan.appender.AppenderConnectionEventsToConfFile.main(AppenderConnectionEventsToConfFile.java:52)

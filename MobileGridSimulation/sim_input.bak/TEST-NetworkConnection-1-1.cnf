@@ -1,0 +1,30 @@
+;networkEnergyManagementEnable: true
+
+;nodeFile
+sim_input/nodes/2TestDevice-1-0.cnf
+
+;loadBalancing: edu.isistan.gridgain.spi.loadbalacing.energyaware.GridEnergyAwareWithTimerAndReintentsLoadBalancing 1000-3
+;comparator: edu.isistan.gridgain.information.comparator.seas.MobilityComparator
+
+;batteryFile
+sim_input/device_profile/TestDevice/battery0.cnf; 00000000-0000-0000-0000-000000000001
+sim_input/device_profile/TestDevice/battery0.cnf; 00000000-0000-0000-0000-000000000002
+
+;batteryFullCpuUsageFile
+sim_input/device_profile/TestDevice/battery100.cnf; 00000000-0000-0000-0000-000000000001
+sim_input/device_profile/TestDevice/battery100.cnf; 00000000-0000-0000-0000-000000000002
+
+;connectionRelatedEventsFile
+sim_input/device_profile/TestDevice/connectionEventsSwapEvery5Seconds.cnf; 00000000-0000-0000-0000-000000000001
+sim_input/device_profile/TestDevice/connectionEvents5On1Off.cnf; 00000000-0000-0000-0000-000000000002
+
+;cpuFile
+sim_input/device_profile/TestDevice/cpu0.cnf; 00000000-0000-0000-0000-000000000001
+sim_input/device_profile/TestDevice/cpu0.cnf; 00000000-0000-0000-0000-000000000002
+
+;jobsEvent
+sim_input/jobs/TestConnection1JOB.cnf
+
+;wifiSignalStrength
+-50; 00000000-0000-0000-0000-000000000001
+-50; 00000000-0000-0000-0000-000000000002
