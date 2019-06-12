@@ -98,7 +98,6 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
         // When we receive a message from a device, we check if we have any data to send to the device we got the
         // message from and start sending it to it.
         Device device = (Device) message.getSource();
-
         if (!deviceDataMap.get(device).pendingTransfers.isEmpty()) {
             TransferInfo transferInfo = deviceDataMap.get(device).pendingTransfers.peek();
             int messageSize = transferInfo.getMessageSize(MESSAGE_SIZE);
@@ -156,7 +155,6 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
     public void onMessageSentAck(Message messageSent) {
         // This is the id of the node that received the message.
         int destinationNodeId = messageSent.getDestination().getId();
-
         DeviceData deviceData = this.deviceDataMap.get(messageSent.getDestination());
         TransferInfo transferInfo = deviceData.pendingTransfers.peek();
         // Should never be null, but we check just in case.
@@ -178,13 +176,11 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
             } else {
                 transferInfo.increaseIndex();
             }
-
             // If we have more data to send to the device (either additional fragments of the previous message or the
             // first fragment of a new message), and the receiver device is currently not busy, we send the data.
             if (!deviceData.pendingTransfers.isEmpty() && !transferInfo.getDestination().isSending()) {
                 TransferInfo nextTransfer = deviceData.pendingTransfers.peek();
                 int messageSize = nextTransfer.getMessageSize(MESSAGE_SIZE);
-
                 if (nextTransfer != transferInfo) {
                     setJobTotalTransferringTime(nextTransfer);
                 }
@@ -210,7 +206,6 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
         return NetworkModel.getModel().send(this, destination, destination.getId(),
                 messageSize, data, offset, lastMessage);
     }
-
     public void remove(Device device) {
         this.devices.remove(device.getName());
         if (this.deviceDataMap.containsKey(device)) {
@@ -242,7 +237,6 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
     protected void queueJobTransferring(final Device device, final Job job) {
         Logger.logEntity(this, "Job assigned to ", job.getJobId(), device);
         // device.incrementIncomingJobs();
-
         incrementIncomingJobs(device);
         JobStatsUtils.setJobAssigned(job);
 
@@ -251,7 +245,7 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
             public void onMessageSent(Node destination, long ETA) {
                 long currentSimTime = Simulation.getTime();
                 JobStatsUtils.transfer(job, device, ETA - currentSimTime, currentSimTime);
-            }
+            }//todo este podria ser el problema si transfer considera transferencia completa la confirmacion de que Puede mandarse aun sin haber pasado el tiempo
         });
     }
 
@@ -289,8 +283,8 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
         TransferInfo transferInfo = new TransferInfo<>(destination, data, subMessagesCount, lastMessageSize);
         deviceData.pendingTransfers.add(transferInfo);
 
-        // If the channel is not busy, we send the first message for the given job.
-        if (!channelBusy) {
+        // If the channel is not busy, we send the first message for the given job
+        if (!channelBusy&&!destination.isSending()) {
 
             TransferInfo nextTransferInfo = deviceData.pendingTransfers.peek();
             int packageSize = nextTransferInfo.getMessageSize(MESSAGE_SIZE);

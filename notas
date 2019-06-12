@@ -99,4 +99,21 @@ actual como aquellos encolados, aun cuando no podra ser capaz de retornar los re
 	
 	tambien genere jobs en base a un job setup parametrizable para luego instanciar los experimentos con diversos jobs
 	
-	
+
+	_________________
+
+	retormo despues de mucho tiempo, con los cambios a entornos de colectivos y reconocimiento de imagenes. Se agrega clase jobInBurstGenerator
+	que genera 30 trabajos por segundo entre burst (fps de la camara son 30, por los segundos grabando) y la distancia entre los burst
+	es generada con distribucion normal. DONE
+
+	me pongo a hacer un nuevo score reportado como valor de movilidad que sea el promedio, moving average, o alguna medida ponderada
+	de tiempo de conexion estimativo a la red que cada device conoce. No lo calculo a medida que se ejecuta la simulación como lo hacia
+	con los moving averague que inician en 0 al iniciar la simulacion. Sino que lo reporto ya precalculado simulando valores almacenados
+	de conexiones previas a la simulacion actual. Se me volvio imposible precargar un valor random para los score a reportar suponiendo
+	que anteriormente se calculo, porque luego al generar los eventos de conexion y desconexion no lo puedo acceder ni relacionar
+	los intervalos entre eventos con el valor reportado. Ambas coss se generan por separado y si relacion alguna. Dejo fijo que reportan
+	todos un valor de distribucion normal de una hora con desviacion de 5 minutos, Pero luego los eventos de conexion de cada device
+	no reflejan para nada esta variabilidad entre scores reportados, son independientes.
+
+	Como solucion por el momento dejo que reporte un valor fijo, sin desviacion al setearlo, y a mano a cada nodo le pongo un valor random
+	como entrada para reportar como score. Asi luego puedo usar este score y levantarlo desde el generador de eventos de conexin

@@ -71,7 +71,7 @@ public class DeviceReader {
             String connectionScoreCalculatorClass = connectionScoreCalculator[0];
             String[] connectionScoreCalculatorArgs = null;
             if (connectionScoreCalculator.length > 1)
-                connectionScoreCalculatorArgs = Arrays.copyOfRange(connectionScoreCalculator, 1, connectionScoreCalculator.length - 1);
+                connectionScoreCalculatorArgs = Arrays.copyOfRange(connectionScoreCalculator, 1, connectionScoreCalculator.length);
             Class<ConnectionScoreCalculator> clazz = null;
             try {
                 clazz = (Class<ConnectionScoreCalculator>) Class.forName(connectionScoreCalculatorClass);

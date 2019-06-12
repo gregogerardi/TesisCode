@@ -1,7 +1,10 @@
 package edu.isistan.connectioneventsgenerator;
 
 import edu.isistan.NodeFileReader;
+import edu.isistan.connectioneventsgenerator.intervalcalculators.FixedNormalDistributionInterval;
 import edu.isistan.connectioneventsgenerator.intervalcalculators.IntervalCalculator;
+import edu.isistan.connectioneventsgenerator.intervalcalculators.NormalDistributionInterval;
+import edu.isistan.mobileGrid.node.ConnectionScoreFixedValue;
 
 import java.io.File;
 import java.io.IOException;
@@ -45,15 +48,29 @@ public class ConnectionEventsGenerator {
 
                 NodeFileReader reader = new NodeFileReader(inputFile);
                 if (reader.isDirectory()) {
-                    HashMap<String, String> devices = reader.readDirectory(outputFile);
-                    for (String devicePath : devices.keySet()) {
-                        ConnectionEventsWriter writer = new ConnectionEventsWriter.Builder()
-                                .setOutputFile(outputFile + devicePath)
-                                .setMaxTime(maxTime)
-                                .setIntervalCalculator(intervalCalculatorClass.getConstructor(intervalCalculatorArgs.getClass()).newInstance(intervalCalculatorArgs))
-                                .build();
+                    if (intervalCalculatorClass.equals(FixedNormalDistributionInterval.class)) {
+                        HashMap<String, Long> medias = new HashMap<>();
+                        HashMap<String, String> devices = reader.readDirectory(outputFile, medias);
+                        for (String devicePath : devices.keySet()) {
+                            ConnectionEventsWriter writer = new ConnectionEventsWriter.Builder()
+                                    .setOutputFile(outputFile + devicePath)
+                                    .setMaxTime(maxTime)
+                                    .setIntervalCalculator(new FixedNormalDistributionInterval(intervalCalculatorArgs, medias.get(devices.get(devicePath))))
+                                    .build();
 
-                        writer.generateConfigurationFile();
+                            writer.generateConfigurationFile();
+                        }
+                    } else {
+                        HashMap<String, String> devices = reader.readDirectory(outputFile);
+                        for (String devicePath : devices.keySet()) {
+                            ConnectionEventsWriter writer = new ConnectionEventsWriter.Builder()
+                                    .setOutputFile(outputFile + devicePath)
+                                    .setMaxTime(maxTime)
+                                    .setIntervalCalculator(intervalCalculatorClass.getConstructor(intervalCalculatorArgs.getClass()).newInstance(intervalCalculatorArgs))
+                                    .build();
+
+                            writer.generateConfigurationFile();
+                        }
                     }
                 } else {
                     List<String> devices = reader.read();

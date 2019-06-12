@@ -33,6 +33,10 @@ public class NodeFileReader {
         return devices;
     }
 
+    public HashMap<String, String> readDirectory(String outputRoot,HashMap<String,Long> medias) throws FileNotFoundException {
+        return readDirectory(file, "", outputRoot,medias);
+    }
+
     public HashMap<String, String> readDirectory(String outputRoot) throws FileNotFoundException {
         return readDirectory(file, "", outputRoot);
     }
@@ -55,6 +59,31 @@ public class NodeFileReader {
             HashMap<String, String> results = new HashMap<>();
             for (File f : file.listFiles()) {
                 results.putAll(readDirectory(f, outputDirectory + "\\" + f.getName(), outputRoot));
+            }
+            return results;
+        }
+    }
+
+    public HashMap<String, String> readDirectory(File file, String outputDirectory, String outputRoot, HashMap<String, Long> medias) throws FileNotFoundException {
+        if (!file.isDirectory()) {
+            Scanner scanner = new Scanner(file);
+            HashMap<String, String> result = new HashMap();
+            while (scanner.hasNext()) {
+                String line = scanner.nextLine().trim();
+
+                if (line.indexOf("#") == 0 || line.length() == 0) continue;
+
+                String[] values = line.split(";");
+                String score = values[values.length-1].split("-")[1];
+                result.put(outputDirectory + "\\" + values[0] + ".cnf", values[0]);
+                medias.put(values[0], Long.valueOf(score));
+            }
+            scanner.close();
+            return result;
+        } else {
+            HashMap<String, String> results = new HashMap<>();
+            for (File f : file.listFiles()) {
+                results.putAll(readDirectory(f, outputDirectory + "\\" + f.getName(), outputRoot,medias));
             }
             return results;
         }

@@ -257,7 +257,6 @@ public class Simulation {
         JobStatsUtils.persisterFactory = persistenceFactory;
         DeviceTuple.setIPersisterFactory(persistenceFactory);
         SimReader.setPersisterFactory(persistenceFactory);
-
     }
 
     private static void validateExperiment() {
