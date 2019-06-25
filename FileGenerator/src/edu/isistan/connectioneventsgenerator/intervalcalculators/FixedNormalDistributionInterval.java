@@ -20,11 +20,10 @@ public class FixedNormalDistributionInterval extends IntervalCalculator {
         if (!isParametersSetted())
             setParameters(maxTimeToConnect, minTimeToConnect, maxStdTimeToConnect, minStdTimeToConnect, maxStdTimeToDisconnect, minStdTimeToDisconnect);
         long averageTimeToConnect = ThreadLocalRandom.current().nextLong(minTimeToConnect, maxTimeToConnect);
-        long averageTimeToDisconnect = mediaScore;
         double stdTimeToConnect = ThreadLocalRandom.current().nextLong(minStdTimeToConnect, maxStdTimeToConnect);
         double stdTimeToDisconnect = ThreadLocalRandom.current().nextLong(minStdTimeToDisconnect, maxStdTimeToDisconnect);
         normalDistributionToConnection = new NormalDistribution(averageTimeToConnect,stdTimeToConnect);
-        normalDistributionToDisconnection = new NormalDistribution(averageTimeToDisconnect,stdTimeToDisconnect);
+        normalDistributionToDisconnection = new NormalDistribution(mediaScore,stdTimeToDisconnect);
     }
 
     public FixedNormalDistributionInterval(String args,long mediaScore) {
@@ -34,11 +33,10 @@ public class FixedNormalDistributionInterval extends IntervalCalculator {
             if (!isParametersSetted())
                 setParameters(Long.parseLong(arguments[0]), Long.parseLong(arguments[1]), Long.parseLong(arguments[2]), Long.parseLong(arguments[3]),Long.parseLong(arguments[4]), Long.parseLong(arguments[5]));
             long averageTimeToConnect = ThreadLocalRandom.current().nextLong(minTimeToConnect, maxTimeToConnect);
-            long averageTimeToDisconnect = mediaScore;
             double stdTimeToConnect = ThreadLocalRandom.current().nextLong(minStdTimeToConnect, maxStdTimeToConnect);
             double stdTimeToDisconnect = ThreadLocalRandom.current().nextLong(minStdTimeToDisconnect, maxStdTimeToDisconnect);
             normalDistributionToConnection = new NormalDistribution(averageTimeToConnect,stdTimeToConnect);
-            normalDistributionToDisconnection = new NormalDistribution(averageTimeToDisconnect,stdTimeToDisconnect);
+            normalDistributionToDisconnection = new NormalDistribution(mediaScore,stdTimeToDisconnect);
         }
     }
 

@@ -1,0 +1,27 @@
+Los devices usados estan en el archivo D:\Bibliotecas\Documents\TesisCode\MobileGridSimulation\sim_input\input_enviroments\BurstBus\nodes\20A100-30GalaxyTab2-50LP\20A100-30GalaxyTab2-50L9Appender.cnf 
+y son los mismos del archivo base anexado al final de cada linea el valor de la media que se reporta como score durante la simulacion. Estos valores se generaron con una 
+distribucion normal de media 3600000 (1hs) y desviacion estandar 900000 (15 minutos)
+
+Eventos de conexion generados con edu.isistan.connectioneventsgenerator.ConnectionEventsGenerator
+parametrizado con -i
+D:\Bibliotecas\Documents\TesisCode\MobileGridSimulation\sim_input\input_enviroments\BurstBus\nodes\20A100-30GalaxyTab2-50LP
+-o
+D:\Bibliotecas\Documents\TesisCode\MobileGridSimulation\sim_input\input_enviroments\BurstBus\connectionEvents\Between1-4ConectionsPerDay1hsConnection
+-t
+172800000 (2 dias de simulacion de eventos )
+-ic 
+edu.isistan.connectioneventsgenerator.intervalcalculators.FixedNormalDistributionInterval
+86400000-21600000-7200000-300000-300000-0-1800000-0 (clase del interval calculator a usar, parametros del interval calculator como : 
+maxTimeToConnect, minTimeToConnect, maxStdTimeToConnect, minStdTimeToConnect, maxStdTimeToDisconnect, minStdTimeToDisconnect)
+
+Jobs generados con edu.isistan.jobs.JobInBurstsGenerator parametrizado como 
+30 trabajos por segundo (fps de la camara)
+104691904 operaciones en mips por trabajo derivadas del paper por regla de 3 simple
+80691904  operaciones en mips maximas, tambien por regla de 3 entre o.3 y 1 segundo
+10240 min input tamaño de cada foto
+10240 max input el mismo, las fotos son de tamaño fijo
+4 output pequeño para verdadero falso
+4 output maximo el mismo
+21600000 tiempo de la simulacion completa (6hs) deberia llevarlo a 48 hs pero la compu reviente si lo subo mas
+12000 media de la distribucion normal de cada cuando generar un burst (12 segundos)
+500 std de la media anterior (medio segundo)
