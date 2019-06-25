@@ -4,7 +4,7 @@
         "http://ibatis.apache.org/dtd/ibatis-3-config.dtd">
 
 <configuration>
-    <properties url="file:////D:\bibliotecas\Documents\TesisCode\MobileGridSimulation\ibatis.properties"></properties>
+    <properties url="file:////C:/Users/brian/Documents/Tesis/MobileGridSimulation/ibatis.properties"></properties>
     <settings>
         <setting name="useGeneratedKeys" value="true"/>
     </settings>

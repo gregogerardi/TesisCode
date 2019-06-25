@@ -8,7 +8,7 @@ sim_input/input_enviroments/BurstBus/nodes/200A100-300GalaxyTab2-500LP/200A100-3
 
 ;jobsEvent
 #jobs/JOBS.cnf
-sim_input/input_enviroments/BurstBus/jobs/burst0hs.cnf
+sim_input/input_enviroments/BurstBus/jobs/burst.cnf
 
 ;batteryFile
 sim_input/device_profile/L9/battery0.cnf; 00000000-0000-0000-0000-000000000001

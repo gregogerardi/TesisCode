@@ -52,12 +52,14 @@ public class FixedNormalDistributionInterval extends IntervalCalculator {
 
     @Override
     long getNextConnectionEvent() {
-        return (long)normalDistributionToConnection.sample();
+        long result=(long)normalDistributionToConnection.sample();
+        return result>=0?result:0;
     }
 
     @Override
     long getNextDisconnectionEvent() {
-        return (long) normalDistributionToDisconnection.sample();
+        long result=(long)normalDistributionToDisconnection.sample();
+        return result>=0?result:0;
     }
 
     public boolean isParametersSetted() {
