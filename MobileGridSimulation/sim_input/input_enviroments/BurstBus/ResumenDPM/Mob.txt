@@ -1,0 +1,35 @@
+Mob 1000 100% jobs
+
+Total arrived jobs:2483340
+Rejected:379110
+Scheduled but transfer interrupted:35000
+Completed jobs:1375728
+FinishedButNotCompleted jobs:0
+StartedButNotFinished jobs:255
+Queued jobs:693247
+Not scheduled jobs:0
+Checksum of jobs:2483340
+Percentage of completed jobs:55.398293
+Nodes iddle Time:0:0:0.0
+Total executed ops (in GIPs):127509.17857940093
+_________________________________________
+
+Mob 1000 50% jobs
+
+
+_________________________________________
+
+Mob 1000 10% jobs
+
+Total arrived jobs:248385
+Rejected:37929
+Scheduled but transfer interrupted:0
+Completed jobs:200970
+FinishedButNotCompleted jobs:0
+StartedButNotFinished jobs:14
+Queued jobs:9472
+Not scheduled jobs:0
+Checksum of jobs:248385
+Percentage of completed jobs:80.91068
+Nodes iddle Time:0:0:0.0
+Total executed ops (in GIPs):18627.200956315985

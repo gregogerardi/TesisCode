@@ -1,0 +1,35 @@
+SEAS 1000 100% jobs
+
+Total arrived jobs:2483340
+Rejected:379110
+Scheduled but transfer interrupted:21551
+Completed jobs:1418412
+FinishedButNotCompleted jobs:1
+StartedButNotFinished jobs:295
+Queued jobs:663971
+Not scheduled jobs:0
+Checksum of jobs:2483340
+Percentage of completed jobs:57.117107
+Nodes iddle Time:0:0:0.0
+Total executed ops (in GIPs):131468.04825754184
+_________________________________________
+
+SEAS 1000 50% jobs
+
+
+_________________________________________
+
+SEAS 1000 10% jobs
+
+Total arrived jobs:248385
+Rejected:37929
+Scheduled but transfer interrupted:1
+Completed jobs:175981
+FinishedButNotCompleted jobs:0
+StartedButNotFinished jobs:41
+Queued jobs:34433
+Not scheduled jobs:0
+Checksum of jobs:248385
+Percentage of completed jobs:70.85009
+Nodes iddle Time:0:0:0.0
+Total executed ops (in GIPs):16313.248115022936
