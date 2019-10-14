@@ -1,5 +1,6 @@
 package edu.isistan.seas.reader;
 
+import edu.isistan.gridgain.information.comparator.seas.EnhancedMobilityComparatorWithAcumJobsAndKnownJobSize;
 import edu.isistan.mobileGrid.jobs.Job;
 import edu.isistan.mobileGrid.node.SchedulerProxy;
 import edu.isistan.simulator.Event;
@@ -49,6 +50,11 @@ public class JobReader extends Thread {
                 if (line.equals("") || line.startsWith("#")) {
                     line = this.conf.readLine();
                 } else {
+                    if (line.startsWith("promedioJobsMips:")){
+                        EnhancedMobilityComparatorWithAcumJobsAndKnownJobSize.JOBS_AVERAGE_SIZE=Long.parseLong(line.split(":")[1]);
+                        line = this.conf.readLine();
+                        continue;
+                    }
                     StringTokenizer ts = new StringTokenizer(line, ";");
                     // Currently the ID defined in the configuration file is ignored, instead it is automatically assigned by the engine.
                     ts.nextToken();

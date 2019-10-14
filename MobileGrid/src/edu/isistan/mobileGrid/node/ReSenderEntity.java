@@ -58,7 +58,7 @@ public abstract class ReSenderEntity extends Entity implements Node {
 
     protected abstract void failToRetry(Message message);
 
-    private void retry(Message message) {
+    public void retry(Message message) {
         long retryTime = Simulation.getTime() + resendInterval;
         Event retryEvent = Event.createEvent(Event.NO_SOURCE, retryTime, this.getId(), EVENT_MESSAGE_RETRY, message);
         Simulation.addEvent(retryEvent);

@@ -8,7 +8,7 @@ public interface ConnectionScoreCalculator {
     boolean CONNECT = true;
     boolean DISCONNECT = false;
 
-    void average(long time, boolean connect);
+    void calculate(long time, boolean connect);
 
     /**
      * return a long value that means the expected amount of time that the device will be connectd

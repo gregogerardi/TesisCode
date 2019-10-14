@@ -1,5 +1,9 @@
 package edu.isistan.simulator;
 
+import edu.isistan.mobileGrid.jobs.Job;
+import edu.isistan.mobileGrid.network.NetworkModel;
+import edu.isistan.mobileGrid.node.CloudNode;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeSet;
@@ -45,7 +49,8 @@ public class Simulation {
 
         // Resets Event static parameters.
         Event.reset();
-
+        CloudNode.fullreset();
+        NetworkModel.fullreset();
         // Resets Entity static parameters.
         Entity.reset();
     }

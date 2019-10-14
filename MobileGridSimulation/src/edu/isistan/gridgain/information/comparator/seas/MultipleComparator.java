@@ -16,7 +16,7 @@ public class MultipleComparator extends DeviceComparator {
             acumWeight += d;
         }
         if (acumWeight != 1d) {
-            throw new Exception("The weights of comparators do not acum one");
+            throw new Exception("The weights of comparators do not sum one");
         } else {
             this.comparatorsPriorities = comparatorsPriorities;
         }

@@ -249,7 +249,6 @@ public class DefaultExecutionManager implements ExecutionManager {
     }
 
     // Getters and setters
-
     @Override
     public int getNumberOfJobs() {
         return this.pendingJobs.size() + (this.isExecuting() ? 1 : 0);

@@ -50,7 +50,7 @@ public class DeviceReader {
         this.devices = new HashMap<>();
         this.nextLine();
         boolean batteryCapacityUndefined = false;
-        IDevicePersister devicePersister = persisterFactory.getDevicePersister();
+        //IDevicePersister devicePersister = persisterFactory.getDevicePersister();
         int sim_id = SimReader.getSim_id();
         // Expected format for each line in the configuration file:
         // [device_name];[device_flops];[max_concurrent_active_jobs_supported];[battery_capacity_in_joules];[NetworkConnectionScoreCalculatorFactory]
@@ -81,7 +81,7 @@ public class DeviceReader {
             DeviceLoader loader = new DeviceLoader(nodeId, flops, maxActiveJobs, networkEnergyManagementEnable,
                     batteryCapacityInJoules, retryInterval, amountOfRetries, clazz, connectionScoreCalculatorArgs);
             DeviceTuple tuple = new DeviceTuple(nodeId, flops, batteryCapacityInJoules, sim_id);
-            devicePersister.saveDeviceIntoMemory(nodeId, tuple);
+            //devicePersister.saveDeviceIntoMemory(nodeId, tuple);
 
             this.devices.put(nodeId, loader);
             this.nextLine();

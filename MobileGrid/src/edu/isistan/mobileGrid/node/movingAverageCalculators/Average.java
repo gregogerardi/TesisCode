@@ -16,8 +16,8 @@ public class Average implements ConnectionScoreCalculator {
     }
 
     @Override
-    public void average(long time, boolean connect) {
-        delegate.average(time, connect);
+    public void calculate(long time, boolean connect) {
+        delegate.calculate(time, connect);
     }
 
     @Override
@@ -26,7 +26,7 @@ public class Average implements ConnectionScoreCalculator {
     }
 
     /*  private Double lastScore = null;
-    private long lastMesuredTime = 0;
+    private long lastMeasuredTime = 0;
 
     @Override
     public void average(long time, boolean connectionState) {

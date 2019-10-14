@@ -13,12 +13,13 @@ public class ProgressiveStandardizer {
         if (amountOfSamples <= 1) standardDeviation = 0;
         else {
             sumOfPowedSamples += Math.pow(value, 2);
-            standardDeviation = Math.sqrt((sumOfPowedSamples * amountOfSamples - (Math.pow(average, 2))) / (amountOfSamples * (amountOfSamples - 1)));
+            double pow=Math.abs(sumOfPowedSamples * amountOfSamples - (Math.pow(average, 2))) / (amountOfSamples * (amountOfSamples - 1));
+            standardDeviation = Math.sqrt(pow);
         }
     }
 
     public double getStandar(double value) {
         addValue(value);
-        return ((value - average) / standardDeviation);
+        return (standardDeviation==0?0:((value - average) / standardDeviation));
     }
 }

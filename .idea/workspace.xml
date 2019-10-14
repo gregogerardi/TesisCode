@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MobileGridSimulation:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93b41c33-23f6-41e3-a4ae-9aca4c1c3e6e" name="Default Changelist" comment="squash! removed large files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notas" beforeDir="false" afterPath="$PROJECT_DIR$/notas" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="pre cambios al planificador" />
+        <option name="rewordedMessage" value="removed large files&#10;&#10;&#10;final&#10;&#10;&#10;pre cambios al planificador" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="4c9723861c5bb1179cfbd85131aeb3baf683ccc0" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="Python Scripts/invalid/Python" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1SFAsWGD1GYXIA4vRBmGKmFwvqQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus/jobs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus/nodes/200A100-300GalaxyTab2-500LP" />
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus/NuevosEscenariosNov2020" />
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus/connectionEvents" />
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus" />
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus/NuevosEscenarios/media90desvio30" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="edu.isistan.connectioneventsgenerator" />
+      <recent name="edu.isistan.seas" />
+      <recent name="edu.isistan.jobs" />
+      <recent name="edu.isistan.gridgain.information.comparator.seas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus/NuevosEscenarios/media30desvio10" />
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus/nodes/200A100-300GalaxyTab2-500LP" />
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/input_enviroments/BurstBus/old" />
+      <recent name="$PROJECT_DIR$/MobileGridSimulation/sim_input/old" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ResumeCantidadDeDevicesAll">
+    <configuration name="ResumeCantidadDeDevicesAll2" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ResumenDevicesInFolder2" />
+      <module name="MobileGridSimulation" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../logoutTesisNENov2020 $PROJECT_DIR$/../logoutTesisNENov2020ResumenDevices2" />
+      <option name="VM_PARAMETERS" value="-Xmx8G" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MobileGridSimulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ALL" type="CompoundRunConfigurationType">
+      <toRun name="MULTI5050" type="CompoundRunConfigurationType" />
+      <toRun name="SMAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESEAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESMASFJ" type="CompoundRunConfigurationType" />
+      <toRun name="ESMAS" type="CompoundRunConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ESEAS" type="CompoundRunConfigurationType">
+      <toRun name="MULTI5050" type="CompoundRunConfigurationType" />
+      <toRun name="SMAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESEAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESMASFJ" type="CompoundRunConfigurationType" />
+      <toRun name="ESMAS" type="CompoundRunConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ESMAS" type="CompoundRunConfigurationType">
+      <toRun name="MULTI5050" type="CompoundRunConfigurationType" />
+      <toRun name="SMAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESEAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESMASFJ" type="CompoundRunConfigurationType" />
+      <toRun name="ESMAS" type="CompoundRunConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ESMASFJ" type="CompoundRunConfigurationType">
+      <toRun name="MULTI5050" type="CompoundRunConfigurationType" />
+      <toRun name="SMAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESEAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESMASFJ" type="CompoundRunConfigurationType" />
+      <toRun name="ESMAS" type="CompoundRunConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MULTI5050" type="CompoundRunConfigurationType">
+      <toRun name="MULTI5050" type="CompoundRunConfigurationType" />
+      <toRun name="SMAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESEAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESMASFJ" type="CompoundRunConfigurationType" />
+      <toRun name="ESMAS" type="CompoundRunConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SMAS" type="CompoundRunConfigurationType">
+      <toRun name="MULTI5050" type="CompoundRunConfigurationType" />
+      <toRun name="SMAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESEAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESMASFJ" type="CompoundRunConfigurationType" />
+      <toRun name="ESMAS" type="CompoundRunConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="MULTI5050" type="CompoundRunConfigurationType" />
+      <toRun name="SMAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESEAS" type="CompoundRunConfigurationType" />
+      <toRun name="ESMASFJ" type="CompoundRunConfigurationType" />
+      <toRun name="ESMAS" type="CompoundRunConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/MobileGridSimulation_jar/MobileGridSimulation.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ALLRUNS" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="Empty" type="Application" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMAS" run_configuration_type="Multirun" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESEAS" run_configuration_type="Multirun" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ" run_configuration_type="Multirun" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="MULTI5050" run_configuration_type="Multirun" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="SMAS" run_configuration_type="Multirun" />
+      </method>
+    </configuration>
+    <configuration name="ALLRUNSPLANO" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="Empty" type="Application" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <configuration name="ESEAS" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="true" delayTime="0">
+      <runConfiguration name="Empty" type="Application" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <configuration name="ESMAS" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="true" delayTime="0">
+      <runConfiguration name="Empty" type="Application" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <configuration name="ESMASFJ" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="Empty" type="Application" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <configuration name="MULTI5050" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="Empty" type="Application" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <configuration name="SMAS" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="Empty" type="Application" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" run_configuration_type="Application" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" />
+      <item itemvalue="Application.EnhSEAS-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" />
+      <item itemvalue="Application.TEST" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" />
+      <item itemvalue="Application.EnhMobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secPRUEBA ARREGLO 90 MIN" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" />
+      <item itemvalue="Application.ESMASFJ-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" />
+      <item itemvalue="Application.ModificarIntervalosAll60min" />
+      <item itemvalue="Application.ModificarIntervalosAll90min" />
+      <item itemvalue="Application.ModificarIntervalosAll30min" />
+      <item itemvalue="Application.ModificarIncertidumbre90-9" />
+      <item itemvalue="Application.ModificarIncertidumbre30-3" />
+      <item itemvalue="Application.ModificarIncertidumbre60-6" />
+      <item itemvalue="Application.ModificarIncertidumbre60-20" />
+      <item itemvalue="Application.ModificarIncertidumbre60-30" />
+      <item itemvalue="Application.ModificarIncertidumbre30-10" />
+      <item itemvalue="Application.ModificarIncertidumbre30-15" />
+      <item itemvalue="Application.ModificarIncertidumbre90-30" />
+      <item itemvalue="Application.ModificarIncertidumbre90-45" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" />
+      <item itemvalue="Application.Multi5050-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile90" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile60" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile30" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile90baja" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile60baja" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile30baja" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile30media" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile30alta" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile60media" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile60alta" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile90media" />
+      <item itemvalue="Application.AverageForEventsInFolderAndNodesFile90alta" />
+      <item itemvalue="Application.RandomizarIntervalosAll60min" />
+      <item itemvalue="Application.RandomizarIntervalosAll30min" />
+      <item itemvalue="Application.RandomizarIntervalosAll90min" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia30incertidumbreBaja" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia30incertidumbreMedia" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia30incertidumbreAlta" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia60incertidumbreAlta" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia60incertidumbreMedia" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia60incertidumbreBaja" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia90incertidumbreBaja" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia90incertidumbreMedia" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia90incertidumbreAlta" />
+      <item itemvalue="Application.ResumeResultadosMedia90Desvio9Nov2020" />
+      <item itemvalue="Application.ResumeResultadosMedia90Desvio30Nov2020" />
+      <item itemvalue="Application.ResumeResultadosMedia90Desvio45Nov2020" />
+      <item itemvalue="Application.ResumeResultadosMedia30Desvio3Nov2020" />
+      <item itemvalue="Application.ResumeResultadosMedia30Desvio10Nov2020" />
+      <item itemvalue="Application.ResumeResultadosMedia30Desvio15Nov2020" />
+      <item itemvalue="Application.ResumeResultadosMedia60Desvio6Nov2020" />
+      <item itemvalue="Application.ResumeResultadosMedia60Desvio20Nov2020" />
+      <item itemvalue="Application.ResumeResultadosMedia60Desvio30Nov2020" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobsquad" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5sec" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs5secquad" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10sec" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs10secquad" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20sec" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesFullJobs20secquad" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs5sec" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs10sec" />
+      <item itemvalue="Application.Mobility-200A100-300GalaxyTab2-500L9-JOBSDesconexionesMasVariablesHalfJobs20sec" />
+      <item itemvalue="Application.Run simulations in folder" />
+      <item itemvalue="Application.Run simulations in folder Nov 2020" />
+      <item itemvalue="Application.Run simulations in folder Nov 2020 re run for 30 alta" />
+      <item itemvalue="Application.Empty" />
+      <item itemvalue="Application.TestConfig" />
+      <item itemvalue="Application.double-jobs" />
+      <item itemvalue="Application.quad-jobs-amount" />
+      <item itemvalue="Application.TESTNov2020media" />
+      <item itemvalue="Application.TESTNov2020alta" />
+      <item itemvalue="Application.TESTNov2020baja" />
+      <item itemvalue="Application.groupJobs" />
+      <item itemvalue="Application.ResumenAllParExcelNov2020" />
+      <item itemvalue="Application.RunAll" />
+      <item itemvalue="Application.ResumeAllNov2020" />
+      <item itemvalue="Application.ResumeCantidadDeDevicesAll" />
+      <item itemvalue="Application.ResumeCantidadDeDevicesAll2" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia30desvio10" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia60desvio20" />
+      <item itemvalue="Application.ResumeResultadosParaGraficoMedia90desvio30" />
+      <item itemvalue="Application.Comparativa" />
+      <item itemvalue="Application.filterJobs" />
+      <item itemvalue="Compound.ALL" />
+      <item itemvalue="Compound.ESEAS" />
+      <item itemvalue="Compound.ESMAS" />
+      <item itemvalue="Compound.MULTI5050" />
+      <item itemvalue="Compound.SMAS" />
+      <item itemvalue="Compound.ESMASFJ" />
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="Multirun.ALLRUNS" />
+      <item itemvalue="Multirun.ALLRUNSPLANO" />
+      <item itemvalue="Multirun.ESEAS" />
+      <item itemvalue="Multirun.ESMAS" />
+      <item itemvalue="Multirun.ESMASFJ" />
+      <item itemvalue="Multirun.MULTI5050" />
+      <item itemvalue="Multirun.SMAS" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93b41c33-23f6-41e3-a4ae-9aca4c1c3e6e" name="Default Changelist" comment="" />
+      <created>1562804389246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562804389246</updated>
+      <workItem from="1562804391482" duration="2554000" />
+      <workItem from="1563241968723" duration="283000" />
+      <workItem from="1563242297670" duration="1539000" />
+      <workItem from="1563245092607" duration="1260000" />
+      <workItem from="1563278601676" duration="892000" />
+      <workItem from="1563295331893" duration="979000" />
+      <workItem from="1565958878161" duration="2124000" />
+      <workItem from="1570129650148" duration="1459000" />
+      <workItem from="1570368867880" duration="1415000" />
+      <workItem from="1570897199211" duration="1493000" />
+      <workItem from="1570979098581" duration="1163000" />
+      <workItem from="1571053611698" duration="24413000" />
+      <workItem from="1571148904321" duration="130000" />
+      <workItem from="1571149062245" duration="79000" />
+      <workItem from="1571149180668" duration="157000" />
+      <workItem from="1571149348829" duration="12000" />
+      <workItem from="1571149373717" duration="23000" />
+      <workItem from="1571149410116" duration="6000" />
+      <workItem from="1571149429505" duration="172000" />
+      <workItem from="1571149611087" duration="51000" />
+      <workItem from="1571149676414" duration="354000" />
+      <workItem from="1571150465906" duration="15729000" />
+      <workItem from="1571176725834" duration="17733000" />
+      <workItem from="1571335759048" duration="610000" />
+      <workItem from="1571708750026" duration="256000" />
+      <workItem from="1571832060908" duration="1105000" />
+      <workItem from="1572198103413" duration="42000" />
+      <workItem from="1577629962238" duration="372000" />
+      <workItem from="1577707296793" duration="396000" />
+      <workItem from="1584973751311" duration="12565000" />
+      <workItem from="1584995264515" duration="43207000" />
+      <workItem from="1585100577316" duration="1926000" />
+      <workItem from="1585103498767" duration="40245000" />
+      <workItem from="1585192800503" duration="20231000" />
+      <workItem from="1585318598960" duration="742000" />
+      <workItem from="1585403187552" duration="6899000" />
+      <workItem from="1585431845390" duration="526000" />
+      <workItem from="1588467140533" duration="20631000" />
+      <workItem from="1590343272643" duration="9464000" />
+      <workItem from="1590363535415" duration="9026000" />
+      <workItem from="1590440218501" duration="6365000" />
+      <workItem from="1591551019150" duration="4717000" />
+      <workItem from="1592074031647" duration="1289000" />
+      <workItem from="1593814458241" duration="572000" />
+      <workItem from="1593910035753" duration="2805000" />
+      <workItem from="1604183518607" duration="166000" />
+      <workItem from="1604183750910" duration="12657000" />
+      <workItem from="1604274560728" duration="10538000" />
+      <workItem from="1604324872117" duration="1703000" />
+      <workItem from="1604788940130" duration="17104000" />
+      <workItem from="1604924861422" duration="906000" />
+      <workItem from="1604927286105" duration="51000" />
+      <workItem from="1604927351921" duration="461000" />
+      <workItem from="1604928242678" duration="702000" />
+      <workItem from="1604929096109" duration="76000" />
+      <workItem from="1607211340808" duration="17045000" />
+      <workItem from="1653915217791" duration="803000" />
+      <workItem from="1654650366989" duration="1721000" />
+    </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1654651182424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654651182424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1403" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653915390801">
+      <screen x="0" y="25" width="2560" height="1334" />
+    </state>
+    <state x="1403" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1334/1834.1465.1180.795/2560.25.2560.1415@0.25.2560.1334" timestamp="1653915390801" />
+    <state x="754" y="409" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1654653184482">
+      <screen x="0" y="25" width="1792" height="1022" />
+    </state>
+    <state x="754" y="409" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/1792.325.1180.795/0.25.1792.1022@0.25.1792.1022" timestamp="1654653184482" />
+    <state x="743" y="452" key="VCS.ChangelistChooser" timestamp="1654653968444">
+      <screen x="0" y="25" width="1792" height="1022" />
+    </state>
+    <state x="743" y="452" key="VCS.ChangelistChooser/1792.325.1180.795/0.25.1792.1022@0.25.1792.1022" timestamp="1654653968444" />
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2" timestamp="1654653335318">
+      <screen x="0" y="25" width="1792" height="1022" />
+    </state>
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2/1792.325.1180.795/0.25.1792.1020@0.25.1792.1020" timestamp="1654651301018" />
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2/1792.325.1180.795/0.25.1792.1022@0.25.1792.1022" timestamp="1654653335318" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/gridgain/information/comparator/seas/MultipleComparator.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/seas/util/ProgressiveStandardizer.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/seas/util/ProgressiveStandardizer.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGrid/src/edu/isistan/mobileGrid/node/ConnectionManager.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/JobGeneratorDoubleInterval.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGrid/src/edu/isistan/mobileGrid/jobs/JobStatsUtils.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="job.jobId==318751" language="JAVA" />
+          <url>file://$PROJECT_DIR$/MobileGrid/src/edu/isistan/mobileGrid/jobs/JobStatsUtils.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="this.executing.jobId==318751" language="JAVA" />
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/seas/node/DefaultExecutionManager.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="this.executing.jobId==318751" language="JAVA" />
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/seas/node/DefaultExecutionManager.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="job.jobId==318751" language="JAVA" />
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/seas/node/DefaultExecutionManager.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/seas/node/DefaultExecutionManager.java</url>
+          <line>241</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="job.jobId==318751" language="JAVA" />
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/gridgain/spi/loadbalacing/energyaware/GridEnergyAwareLoadBalancing.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/JobsGroupByTime.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/gridgain/information/comparator/seas/ESMASFJComparator.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/JobsGroupByTime.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/seas/reader/SimReader.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="event.eventId==16338109" language="JAVA" />
+          <url>file://$PROJECT_DIR$/Simulator/src/edu/isistan/simulator/Simulation.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/SimulationInFolder.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/SimulationInFolder.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/ComparativaDeCompletitud.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/JobsFinishedPerTime.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/JobsFinishedPerTime.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/JobsFinishedPerTime.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/ModificarEventosDeConexionEnFolder.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/ModificarEventosDeConexionEnFolder.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/ResumenInFolder.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MobileGridSimulation/src/edu/isistan/seas/node/DefaultConnectionManager.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/ResumenResultadosInFolder.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/ResumenResultadosInFolder.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/ResumenResultadosInFolder.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/RunSimulationsInFolder.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/DispositivosConectadosPerTime2.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DoubleJobs/src/DispositivosConectadosPerTime2.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="filesToUseAsArgument.toString()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile1" value="file://$PROJECT_DIR$/../example.suml" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../Example.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

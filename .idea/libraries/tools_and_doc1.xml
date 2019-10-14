@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="tools_and_doc1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MobileGridSimulation/sim_input/device_profile/tools_and_doc/batteryInterpolator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MobileGridSimulation/sim_input/device_profile/tools_and_doc/rawData2SimData.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MobileGridSimulation/sim_input/device_profile/tools_and_doc/profileOffsetRemover.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

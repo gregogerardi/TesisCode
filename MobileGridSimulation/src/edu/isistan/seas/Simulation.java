@@ -80,7 +80,7 @@ public class Simulation {
         cnfPathArr = cnfPath.split("-");
         cnfPath = cnfPathArr[0];
         Logger.EXPERIMENT = cnfPath;
-
+        CloudNode.fullreset();
         CloudNode cloudNode = CloudNode.getInstance();
         Set<Node> cloudNodeSet = new HashSet<>();
         cloudNodeSet.add(cloudNode);

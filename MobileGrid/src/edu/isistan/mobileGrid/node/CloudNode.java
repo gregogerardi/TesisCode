@@ -30,6 +30,10 @@ public class CloudNode extends Entity implements Node {
         return instance;
     }
 
+    public static void fullreset() {
+        instance=null;
+    }
+
     @Override
     public void incomingData(Node scr, int id) {
 

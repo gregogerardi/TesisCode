@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MobileGridSimulation/lib/hsqldb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MobileGridSimulation/lib/mybatis-3.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MobileGridSimulation/lib/jgap_3.6.2_full.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

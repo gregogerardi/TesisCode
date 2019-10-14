@@ -3,8 +3,6 @@ package edu.isistan.connectioneventsgenerator;
 import edu.isistan.NodeFileReader;
 import edu.isistan.connectioneventsgenerator.intervalcalculators.FixedNormalDistributionInterval;
 import edu.isistan.connectioneventsgenerator.intervalcalculators.IntervalCalculator;
-import edu.isistan.connectioneventsgenerator.intervalcalculators.NormalDistributionInterval;
-import edu.isistan.mobileGrid.node.ConnectionScoreFixedValue;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,7 +18,7 @@ public class ConnectionEventsGenerator {
     private static Class<IntervalCalculator> intervalCalculatorClass;
 
     public static void main(String[] args) {
-        System.out.println("Generating Coonection's Events");
+        System.out.println("Generating Connections Events");
         parseArguments(args);
 
         try {

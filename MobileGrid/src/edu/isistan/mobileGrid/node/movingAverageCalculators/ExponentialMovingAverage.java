@@ -22,7 +22,7 @@ public class ExponentialMovingAverage implements ConnectionScoreCalculator {
     }
 
     @Override
-    public void average(long time, boolean connectionState) {
+    public void calculate(long time, boolean connectionState) {
 
         if (lastScore == null) {
             lastScore = 0d;

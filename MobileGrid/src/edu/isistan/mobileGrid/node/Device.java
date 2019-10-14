@@ -22,7 +22,7 @@ import java.util.*;
  * </ul>
  * Jobs are received by this device, executed, and then their completion is reported back to the original sender.
  */
-public class Device extends ReSenderEntity implements Node, DeviceListener {
+public class Device extends ReSenderEntity implements DeviceListener {
 
     public static final int EVENT_TYPE_BATTERY_UPDATE = 0;
     public static final int EVENT_TYPE_CPU_UPDATE = 1;

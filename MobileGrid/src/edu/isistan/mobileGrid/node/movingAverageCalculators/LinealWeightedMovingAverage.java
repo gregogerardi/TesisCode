@@ -18,7 +18,7 @@ public class LinealWeightedMovingAverage implements ConnectionScoreCalculator {
         this.amountOfSamples = Integer.parseInt(args[0]);
     }
 
-    public static int factorial(int n) {
+    private static int factorial(int n) {
         int resultado = 1;
         for (int i = 1; i <= n; i++) {
             resultado *= i;
@@ -27,7 +27,7 @@ public class LinealWeightedMovingAverage implements ConnectionScoreCalculator {
     }
 
     @Override
-    public void average(long time, boolean connectionState) {
+    public void calculate(long time, boolean connectionState) {
         if (lastMesures == null) {
             lastMesures = new LinkedList<>();
             lastMesuredTime = time;

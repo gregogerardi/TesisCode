@@ -7,7 +7,7 @@ public class ConnectionScoreFixedValue implements ConnectionScoreCalculator {
     }
 
     @Override
-    public void average(long time, boolean connect) {
+    public void calculate(long time, boolean connect) {
     //does not use time and connect, always return a pre-setted score
     }
 

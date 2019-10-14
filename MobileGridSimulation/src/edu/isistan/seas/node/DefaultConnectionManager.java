@@ -51,6 +51,9 @@ public class DefaultConnectionManager implements ConnectionManager {
     public void onDisconnect() {
         connected = false;
         Logger.logEntity(device, "Device is out from the network");
+        if (schedulersConnectionDatas.get(SchedulerProxy.PROXY.getId())==null){
+            System.out.println("aca");
+        }
         schedulersConnectionDatas.get(SchedulerProxy.PROXY.getId()).onDisconnectionTime(Simulation.getTime());
     }
 
@@ -96,11 +99,11 @@ public class DefaultConnectionManager implements ConnectionManager {
         }
 
         public void onDisconnectionTime(long time) {
-            movingScoreCalculator.average(time, DISCONNECT);
+            movingScoreCalculator.calculate(time, DISCONNECT);
         }
 
         public void onConnectionTime(long time) {
-            movingScoreCalculator.average(time, CONNECT);
+            movingScoreCalculator.calculate(time, CONNECT);
         }
 
         public double getScore() {

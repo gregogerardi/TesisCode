@@ -61,6 +61,9 @@ public abstract class NetworkModel {
         return MODEL;
     }
 
+    public static void fullreset(){
+        MODEL=null;
+    }
     public abstract long getTransmissionTime(Node scr, Node dst, int messageSize);
 
     /**
@@ -129,7 +132,7 @@ public abstract class NetworkModel {
 
     protected <T> void addMessageBeingTransmited(Message<T> message) {
         messagesBeingTransmitted.add(message);
-        Logger.logString("Message being transmited: ", message.getId(), message.getOffset());
+        //Logger.logString("Message being transmited: ", message.getId(), message.getOffset());
     }
 
     /**
@@ -145,7 +148,7 @@ public abstract class NetworkModel {
             }
         }
         for (Message m : messagesToBeDeleted) {
-            Logger.logString("Message being transmited canceled because src or dst disconnected: ", m.getId(), m.getOffset());
+            //Logger.logString("Message being transmited canceled because src or dst disconnected: ", m.getId(), m.getOffset());
             messagesBeingTransmitted.remove(m);
             m.getSource().fail(m);
             m.getDestination().failReception(m.getSource(), m.getId());

@@ -116,4 +116,21 @@ actual como aquellos encolados, aun cuando no podra ser capaz de retornar los re
 	no reflejan para nada esta variabilidad entre scores reportados, son independientes.
 
 	Como solucion por el momento dejo que reporte un valor fijo, sin desviacion al setearlo, y a mano a cada nodo le pongo un valor random
+
 	como entrada para reportar como score. Asi luego puedo usar este score y levantarlo desde el generador de eventos de conexin
+
+	generar los escenarios con los s3 en vez de la tab, cambiando los perfiles (el s3 tiene el doble de mips que los otros, dejarle un score de desconexión mas chico de todos)
+	llevar los tiempos a la mitad para mas realismo
+
+
+Para correr el script ejecutarlo con python [nombre del script] y directorio de donde buscar los logs relativo a la ruta harcodeada en el código.
+
+Lo que no este instalarlo con pip (dependencias)
+
+La salida la genera en el mismo lugar de los logs
+
+
+La ventana de tiempo se cambia en el código en milis
+
+De los dos gráficos el primero te da la cantidad de finalizados (no completados) por ventana de tiempo
+sim_input/input_enviroments/BurstBus/jobs/burstQuad

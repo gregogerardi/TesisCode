@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="profiles1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MobileGridSimulation/sim_input/device_profile/A100/raw_samples/profiles.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

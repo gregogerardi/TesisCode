@@ -16,7 +16,7 @@ import java.util.*;
  * Base class for the implementation of a centralized proxy that assigns jobs to arbitrary amounts for nodes
  * in a grid.
  */
-public abstract class SchedulerProxy extends ReSenderEntity implements Node, DeviceListener {
+public abstract class SchedulerProxy extends ReSenderEntity implements DeviceListener {
 
     public static final int EVENT_JOB_ARRIVE = 1;
     /* Size of message buffer for transfers in bytes */
@@ -87,8 +87,8 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
         if (data instanceof UpdateMsg) {
             UpdateMsg msg = (UpdateMsg) data;
             Device device = devices.get(msg.getNodeId());
-            Logger.logEntity(this, "Battery update received from device " + msg.getNodeId() +
-                    " value=" + msg.getPercentageOfRemainingBattery());
+            // Logger.logEntity(this, "Battery update received from device " + msg.getNodeId() +
+            //        " value=" + msg.getPercentageOfRemainingBattery());
             updateDeviceSOC(device, msg.getPercentageOfRemainingBattery());
             // device.setLastBatteryLevelUpdate(msg.getPercentageOfRemainingBattery());
             JobStatsUtils.registerUpdateMessage(this, (UpdateMsg) data);
@@ -185,7 +185,7 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
                     setJobTotalTransferringTime(nextTransfer);
                 }
 
-                sendMessage(transferInfo.getDestination(), transferInfo.getData(), messageSize,
+                sendMessage(nextTransfer.getDestination(), nextTransfer.getData(), messageSize,
                         nextTransfer.getCurrentIndex(), nextTransfer.isLastMessage());
 
             }
@@ -351,8 +351,17 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
         return this.deviceDataMap.get(node).connectionScore;
     }
 
+    public double getTimeOffLastConnectionScore(Node node) {
+        return this.deviceDataMap.get(node).timeOffLastConnectionScore;
+    }
+
     public void updateDeviceConnectionScore(Device device, double connectionScore) {
         deviceDataMap.get(device).connectionScore = connectionScore;
+        this.updateTimeOffLastConnectionScore(device, Simulation.getTime());
+    }
+
+    public void updateTimeOffLastConnectionScore(Device device, long time) {
+        deviceDataMap.get(device).timeOffLastConnectionScore = time;
     }
 
     protected interface OnMessageSent {
@@ -373,6 +382,11 @@ public abstract class SchedulerProxy extends ReSenderEntity implements Node, Dev
          * This connection related score is the last reported score by the device. Actual score could be slightly better.
          */
         private double connectionScore;
+
+        /**
+         * This connection related time is the time off the last reported score by the device.
+         */
+        private double timeOffLastConnectionScore;
 
         /**
          * The last reported state of charge of a {@link Device} through an {@link UpdateMsg} event. Actual state of
